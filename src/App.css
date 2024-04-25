@@ -1,0 +1,87 @@
+
+h2{
+  color:rgb(75,34,75);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 200px;
+  margin-top: -10px;
+}
+body{
+  color:rgb(75,34,75) ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('./image/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.registration-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background-image: url('./image/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: border-box;
+  margin-bottom: 50px;
+ 
+  
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .7rem;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 2rem;
+ 
+}
+.form-group:nth-child(1){
+  flex: .9;
+  
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: rgb(75,34,75);
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(31, 13, 31);
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
